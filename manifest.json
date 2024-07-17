@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Skin Club",
+  "version": "1.0",
+  "description": "Profit/lose percetages per case",
+  "content_scripts": [
+    {
+      "js": [
+        "index.js"
+      ],
+      "matches": [
+        "https://skin.club/*"
+      ]
+    }
+  ]
+}
